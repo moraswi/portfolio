@@ -4,8 +4,9 @@
 //     'vuetify'
 //   ]
 // })
-const { defineConfig } = require("@vue/cli-service");
-module.exports = defineConfig({
+module.exports = {
+  lintOnSave: true,
+
   transpileDependencies: ["vuetify"],
 
   css: {
@@ -15,4 +16,4 @@ module.exports = defineConfig({
       },
     },
   },
-});
+};
