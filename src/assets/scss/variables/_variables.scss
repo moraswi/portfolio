@@ -1,0 +1,10 @@
+@import "~vuetify/src/styles/settings/_variables.scss";
+@import "~vuetify/src/styles/styles.sass";
+
+$black: #000000;
+
+@media only screen and (min-width: map-get($grid-breakpoints, "xl")) {
+  .container {
+    max-width: 1728px !important;
+  }
+}
