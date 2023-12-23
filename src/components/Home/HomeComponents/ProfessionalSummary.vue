@@ -4,7 +4,7 @@
       <!-- <v-flex> -->
       <div class="mt-16">
         <p class="grey--text">ABOUT ME</p>
-        <h1>WHO AM I?</h1>
+        <h2>WHO AM I?</h2>
         <p class="mt-16">
           <span class="red--text"
             ><strong> Hi i'am Lekgothoane Moraswi.</strong></span
@@ -29,7 +29,7 @@
 
 <script>
 export default {
-  name: "IntroSection",
+  name: "ProfessionalSummary",
 
   data: () => ({}),
 };
