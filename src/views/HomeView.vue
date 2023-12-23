@@ -1,7 +1,7 @@
 <template>
-  <v-container class="pa-0">
+  <div>
     <Home />
-  </v-container>
+  </div>
 </template>
 
 <script>

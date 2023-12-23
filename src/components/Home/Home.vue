@@ -1,23 +1,28 @@
 <template>
-  <v-container class="pb-16">
-    <!-- Intro -->
-    <Intro />
+  <div>
+    <v-container>
+      <!-- Intro -->
+      <Intro />
 
-    <!-- ProfessionalSummary -->
-    <ProfessionalSummary />
+      <!-- ProfessionalSummary -->
+      <ProfessionalSummary />
 
-    <!-- WhatIDo -->
-    <WhatIDo />
+      <!-- WhatIDo -->
+      <WhatIDo />
 
-    <!-- Education -->
-    <Education />
+      <!-- Education -->
+      <Education />
 
-    <!-- Experience -->
-    <Experience />
+      <!-- Experience -->
+      <Experience />
 
-    <!-- Projects -->
-    <Projects />
-  </v-container>
+      <!-- Projects -->
+      <Projects />
+    </v-container>
+
+    <!-- BottomBar -->
+    <BottomBar />
+  </div>
 </template>
 
 <script>
@@ -27,6 +32,7 @@ import WhatIDo from "@/components/Home/HomeComponents/WhatIDo.vue";
 import Education from "@/components/Home/HomeComponents/Education.vue";
 import Experience from "@/components/Home/HomeComponents/Experience.vue";
 import Projects from "@/components/Home/HomeComponents/Projects.vue";
+import BottomBar from "@/shared/BottomBar.vue";
 
 export default {
   name: "HomePage",
@@ -39,6 +45,7 @@ export default {
     Education,
     Experience,
     Projects,
+    BottomBar,
   },
 };
 </script>

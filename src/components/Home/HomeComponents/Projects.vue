@@ -7,10 +7,11 @@
       <v-col cols="12" md="4">
         <v-card class="pa-4 web-card text-center">
           <img
-            src="@/assets/logo.png"
+            class=""
+            src="@/assets/img/Grade11Logo.png"
             alt="Pencil-Image"
-            width="30"
-            height="30"
+            width="70"
+            height="70"
           />
           <h3>Grade 11 Q&A</h3>
           <p class="grey--text">Mobile Application</p>
@@ -18,7 +19,7 @@
           <p class="mt-7">
             The application designed for eleventh-grade learners. It assists
             them in easily accessing question papers and their corresponding
-            memoranda. The application was published in 2022.
+            memoranda. The application was published in 2022 Oct.
           </p>
           <v-btn
             class="text-none px-16"
@@ -42,7 +43,10 @@ export default {
 
   data: () => ({
     redirectToGoogle() {
-      window.open("https://www.google.com", "_blank");
+      window.open(
+        "https://play.google.com/store/apps/details?id=com.cvb.splashscreen&pcampaignid=web_share",
+        "_blank"
+      );
     },
   }),
 };
