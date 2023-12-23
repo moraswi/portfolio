@@ -1,10 +1,22 @@
 <template>
   <v-container class="pb-16">
+    <!-- Intro -->
     <Intro />
+
+    <!-- ProfessionalSummary -->
     <ProfessionalSummary />
+
+    <!-- WhatIDo -->
     <WhatIDo />
+
+    <!-- Education -->
     <Education />
+
+    <!-- Experience -->
     <Experience />
+
+    <!-- Projects -->
+    <Projects />
   </v-container>
 </template>
 
@@ -14,6 +26,7 @@ import ProfessionalSummary from "@/components/Home/HomeComponents/ProfessionalSu
 import WhatIDo from "@/components/Home/HomeComponents/WhatIDo.vue";
 import Education from "@/components/Home/HomeComponents/Education.vue";
 import Experience from "@/components/Home/HomeComponents/Experience.vue";
+import Projects from "@/components/Home/HomeComponents/Projects.vue";
 
 export default {
   name: "HomePage",
@@ -25,6 +38,7 @@ export default {
     WhatIDo,
     Education,
     Experience,
+    Projects,
   },
 };
 </script>
