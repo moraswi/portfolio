@@ -1,0 +1,40 @@
+<template>
+  <v-card width="900" class="transparent" flat>
+    <v-layout align-center justify-center>
+      <!-- <v-flex> -->
+      <div class="mt-16">
+        <p class="grey--text">ABOUT ME</p>
+        <h1>WHO AM I?</h1>
+        <p class="mt-16">
+          <span class="red--text"
+            ><strong> Hi i'am Lekgothoane Moraswi.</strong></span
+          >
+          i am a Front-End Developer & Test Analyst.
+        </p>
+        <p>
+          Thrives on creating solutions from the ground up and possesses a keen
+          interest in web development, excelling in the construction of
+          maintainable applications for diverse needs.
+        </p>
+        <p>
+          Finally, I am open to learning new things. I am a cooperative,
+          creative individual committed to developing cutting-edge, safe, and
+          user-friendly software.
+        </p>
+      </div>
+      <!-- </v-flex> -->
+    </v-layout>
+  </v-card>
+</template>
+
+<script>
+export default {
+  name: "IntroSection",
+
+  data: () => ({}),
+};
+</script>
+
+<style lang="scss" scoped>
+//
+</style>
