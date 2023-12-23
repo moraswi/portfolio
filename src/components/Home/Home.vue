@@ -3,6 +3,7 @@
     <Intro />
     <ProfessionalSummary />
     <WhatIDo />
+    <Education />
   </v-container>
 </template>
 
@@ -10,6 +11,7 @@
 import Intro from "@/components/Home/HomeComponents/Intro.vue";
 import ProfessionalSummary from "@/components/Home/HomeComponents/ProfessionalSummary.vue";
 import WhatIDo from "@/components/Home/HomeComponents/WhatIDo.vue";
+import Education from "@/components/Home/HomeComponents/Education.vue";
 
 export default {
   name: "HomePage",
@@ -19,6 +21,7 @@ export default {
     Intro,
     ProfessionalSummary,
     WhatIDo,
+    Education,
   },
 };
 </script>
