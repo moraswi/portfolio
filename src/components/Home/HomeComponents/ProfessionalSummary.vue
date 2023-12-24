@@ -1,5 +1,6 @@
 <template>
   <v-card width="900" class="transparent" flat>
+    <!-- margin card -->
     <v-card
       class="transparent hidden-sm-and-down"
       height="200"
@@ -12,7 +13,7 @@
         <p class="grey--text">ABOUT ME</p>
         <h2>WHO AM I?</h2>
         <p class="mt-16">
-          <span class="red--text"
+          <span class="blue--text"
             ><strong> Hi i'am Lekgothoane Moraswi.</strong></span
           >
           i am a Front-End Developer & Test Analyst.

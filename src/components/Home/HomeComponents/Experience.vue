@@ -12,9 +12,11 @@
     <h2>WORK EXPERIENCE</h2>
 
     <v-layout class="mt-16">
-      <!-- <img src="@/assets/logo.png" alt="Pencil-Image" width="30" height="30" /> -->
-      <v-avatar color="orange" size="40">
-        <v-icon icon="mdi-lead-pencil" color="yellow"></v-icon>
+      <!-- icon -->
+      <v-avatar color="#F2F2F2" size="53">
+        <v-avatar color="orange" size="45">
+          <v-icon color="white">mdi-lead-pencil</v-icon>
+        </v-avatar>
       </v-avatar>
 
       <v-card class="ml-5 pa-5" color="#F2F2F2" width="100%" flat>
@@ -35,12 +37,10 @@
     </v-layout>
 
     <v-layout class="mt-6">
-      <!-- <img src="@/assets/logo.png" alt="Pencil-Image" width="30" height="30" /> -->
-
+      <!-- icon -->
       <v-avatar color="#F2F2F2" size="53">
         <v-avatar color="blue" size="45">
-          <!-- <v-icon icon="mdi-lead-pencil" color="yellow"></v-icon> -->
-          <v-icon>mdi-lead-pencil</v-icon>
+          <v-icon color="white">mdi-lead-pencil</v-icon>
         </v-avatar>
       </v-avatar>
 
