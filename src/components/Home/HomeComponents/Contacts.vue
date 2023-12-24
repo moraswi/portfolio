@@ -1,7 +1,7 @@
 <template>
   <div class="mt-16">
     <p class="grey--text">CONTACTS</p>
-    <h2>MY CONTACTS</h2>
+    <h2>CONTACTS</h2>
 
     <!-- email -->
     <v-layout class="mt-16" align-center>

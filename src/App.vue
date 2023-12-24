@@ -22,8 +22,17 @@
               <v-img
                 src="https://cdn.vuetifyjs.com/images/john.jpg"
                 alt="John"
+                style="cursor: pointer"
+                @click="showDialog = true"
               ></v-img>
             </v-avatar>
+
+            <v-dialog v-model="showDialog" max-width="600">
+              <v-img
+                src="https://cdn.vuetifyjs.com/images/john.jpg"
+                alt="John"
+              ></v-img>
+            </v-dialog>
 
             <v-list-item href="#home">
               <!-- Home -->
@@ -100,7 +109,11 @@
               <v-layout>
                 <v-icon @click="redirectToLinkedIn">mdi-linkedin</v-icon>
 
-                <v-icon class="ml-3">mdi-github</v-icon>
+                <v-icon class="ml-3" @click="redirectToGitHub"
+                  >mdi-github</v-icon
+                >
+
+                <v-icon class="ml-3" @click="redirectToEmail">mdi-email</v-icon>
               </v-layout>
             </v-list-item>
           </v-list>
@@ -123,6 +136,8 @@ export default {
   name: "App",
 
   data: () => ({
+    showDialog: false,
+
     // redirectToLinkedIn
     redirectToLinkedIn() {
       window.open(
@@ -135,10 +150,28 @@ export default {
     redirectToGitHub() {
       window.open("https://github.com/moraswi", "_blank");
     },
+
+    // redirectToEmail
+    redirectToEmail() {
+      window.open("mailto:moraswip97@gmail.com.com", "_blank");
+    },
   }),
 
   computed: {
     ...mapState({ app: "app" }),
+  },
+
+  mounted() {
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+      anchor.addEventListener("click", function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute("href")).scrollIntoView({
+          behavior: "smooth",
+        });
+      });
+    });
   },
 };
 </script>
