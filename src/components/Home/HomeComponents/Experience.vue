@@ -19,7 +19,7 @@
         </v-avatar>
       </v-avatar>
 
-      <v-card class="ml-5 pa-5" color="#F2F2F2" width="100%" flat>
+      <v-card class="ml-md-5 ml-1 pa-5" color="#F2F2F2" width="100%" flat>
         <!-- Front-End Developer (Full Time) -->
         <h3>Front-End Developer (Full Time)</h3>
 
@@ -44,7 +44,7 @@
         </v-avatar>
       </v-avatar>
 
-      <v-card class="ml-5 pa-5" color="#F2F2F2" width="100%" flat>
+      <v-card class="ml-md-5 ml-1 pa-5" color="#F2F2F2" width="100%" flat>
         <!-- Front-End Developer (Full Time) -->
         <h3>Test Analyst (Part Time)</h3>
 

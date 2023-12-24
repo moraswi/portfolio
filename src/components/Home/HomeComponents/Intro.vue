@@ -37,4 +37,9 @@ export default {
   font-family: "Krub", sans-serif;
   font-size: 30px;
 }
+@media screen and (max-width: 1024px) {
+  .text1 {
+    font-size: 13px;
+  }
+}
 </style>
