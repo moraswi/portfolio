@@ -98,7 +98,7 @@
             <!-- icons -->
             <v-list-item>
               <v-layout>
-                <v-icon>mdi-linkedin</v-icon>
+                <v-icon @click="redirectToLinkedIn">mdi-linkedin</v-icon>
 
                 <v-icon class="ml-3">mdi-github</v-icon>
               </v-layout>
@@ -123,7 +123,18 @@ export default {
   name: "App",
 
   data: () => ({
-    //
+    // redirectToLinkedIn
+    redirectToLinkedIn() {
+      window.open(
+        "https://www.linkedin.com/in/moraswi-lekgothoane-8b44961b7/",
+        "_blank"
+      );
+    },
+
+    // redirectToGitHub
+    redirectToGitHub() {
+      window.open("https://github.com/moraswi", "_blank");
+    },
   }),
 
   computed: {
