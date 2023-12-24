@@ -54,7 +54,7 @@
       </div>
     </v-layout>
 
-    <v-layout class="mt-10" justify-space-between>
+    <v-layout class="mt-10 hidden-md-and-up" justify-space-between>
       <v-icon @click="redirectToLinkedIn" size="35">mdi-linkedin</v-icon>
 
       <v-icon @click="redirectToGitHub" size="35">mdi-github</v-icon>
