@@ -75,6 +75,16 @@
               </v-list-item-content>
             </v-list-item>
 
+            <!-- Experiance -->
+            <v-list-item href="#projects">
+              <v-list-item-icon>
+                <v-icon>mdi-projector-screen-variant-outline</v-icon>
+              </v-list-item-icon>
+              <v-list-item-content>
+                <v-list-item-title>Projects</v-list-item-title>
+              </v-list-item-content>
+            </v-list-item>
+
             <!-- Contacts -->
             <v-list-item href="#contacts">
               <v-list-item-icon>

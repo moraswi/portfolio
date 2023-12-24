@@ -1,5 +1,12 @@
 <template>
-  <div class="mt-16">
+  <div class="mt-5">
+    <!-- margin card -->
+    <v-card
+      class="transparent hidden-sm-and-down"
+      height="150"
+      flat
+      tile
+    ></v-card>
     <p class="grey--text">WHAT I DO?</p>
     <h2>ABOVE ARE SOME OF</h2>
     <h2>MY EXPERTISE</h2>

@@ -1,31 +1,41 @@
 <template>
   <div class="ml-md-5 pb-7 pr-4">
     <v-container>
-      <section id="section1">
-        <!-- Intro -->
+      <!-- Intro -->
+      <section id="home">
         <Intro />
       </section>
 
       <!-- ProfessionalSummary -->
-      <ProfessionalSummary />
+      <section id="about">
+        <ProfessionalSummary />
+      </section>
 
       <!-- WhatIDo -->
-      <WhatIDo />
+      <section id="services">
+        <WhatIDo />
+      </section>
 
-      <v-container id="section2">
-        <!-- Education -->
-        <Education /> </v-container
-      >section>
+      <!-- Education -->
+      <section id="education">
+        <Education />
+      </section>
 
       <!-- Experience -->
-      <Experience />
+      <section id="experiance">
+        <Experience />
+      </section>
 
       <!-- Projects -->
-      <Projects />
-    </v-container>
+      <section id="projects">
+        <Projects />
+      </section>
 
-    <!-- BottomBar -->
-    <!-- <BottomBar /> -->
+      <!-- Contacts -->
+      <section id="contacts">
+        <Contacts />
+      </section>
+    </v-container>
   </div>
 </template>
 
@@ -36,7 +46,7 @@ import WhatIDo from "@/components/Home/HomeComponents/WhatIDo.vue";
 import Education from "@/components/Home/HomeComponents/Education.vue";
 import Experience from "@/components/Home/HomeComponents/Experience.vue";
 import Projects from "@/components/Home/HomeComponents/Projects.vue";
-// import BottomBar from "@/shared/BottomBar.vue";
+import Contacts from "@/components/Home/HomeComponents/Contacts.vue";
 
 export default {
   name: "HomePage",
@@ -49,7 +59,7 @@ export default {
     Education,
     Experience,
     Projects,
-    // BottomBar,
+    Contacts,
   },
 };
 </script>
