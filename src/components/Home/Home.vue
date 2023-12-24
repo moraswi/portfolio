@@ -26,6 +26,11 @@
         <Experience />
       </section>
 
+      <!-- Experience -->
+      <section id="skills">
+        <Skills />
+      </section>
+
       <!-- Projects -->
       <section id="projects">
         <Projects />
@@ -45,6 +50,7 @@ import ProfessionalSummary from "@/components/Home/HomeComponents/ProfessionalSu
 import WhatIDo from "@/components/Home/HomeComponents/WhatIDo.vue";
 import Education from "@/components/Home/HomeComponents/Education.vue";
 import Experience from "@/components/Home/HomeComponents/Experience.vue";
+import Skills from "@/components/Home/HomeComponents/Skills.vue";
 import Projects from "@/components/Home/HomeComponents/Projects.vue";
 import Contacts from "@/components/Home/HomeComponents/Contacts.vue";
 
@@ -58,6 +64,7 @@ export default {
     WhatIDo,
     Education,
     Experience,
+    Skills,
     Projects,
     Contacts,
   },
