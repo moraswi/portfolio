@@ -27,7 +27,7 @@
           <li>MySQL Workbench</li>
           <li>Postman</li>
           <li>HTML/CSS</li>
-          <li>jAVASCRIPT</li>
+          <li>Javascript</li>
           <li>Bootstrap</li>
           <li>Version Control/Git</li>
         </ul>
@@ -41,7 +41,13 @@
           <li>UI/UX Design</li>
           <li>Figma</li>
           <li>REST APIs</li>
+        </ul>
+      </v-col>
+      <v-col cols="12" md="3">
+        <ul>
           <li>Docker</li>
+          <li>SCSS</li>
+          <li>Typescript</li>
         </ul>
       </v-col>
     </v-row>
