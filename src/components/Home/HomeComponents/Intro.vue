@@ -9,10 +9,19 @@
     <v-layout>
       <v-avatar class="hidden-md-and-up ma-4" size="100">
         <v-img
-          src="https://cdn.vuetifyjs.com/images/john.jpg"
-          alt="Profile-Pic"
+          src="@/assets/img/profile-picture.jpeg"
+          alt="Profile-Picture"
+          @click="showDialog = true"
         ></v-img>
       </v-avatar>
+      <!-- dialog -->
+      <v-dialog v-model="showDialog" max-width="300">
+        <v-img
+          src="@/assets/img/profile-picture.jpeg"
+          alt="profile-picture"
+        ></v-img>
+      </v-dialog>
+
       <div class="text1">
         <h1>Hi!</h1>
         <h1>I'm Moraswi,</h1>
@@ -27,7 +36,9 @@
 export default {
   name: "IntroSection",
 
-  data: () => ({}),
+  data: () => ({
+    showDialog: false,
+  }),
 };
 </script>
 
