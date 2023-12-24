@@ -1,8 +1,14 @@
 <template>
   <v-card width="900" class="transparent" flat>
+    <v-card
+      class="transparent hidden-sm-and-down"
+      height="200"
+      flat
+      tile
+    ></v-card>
     <v-layout align-center justify-center>
       <!-- <v-flex> -->
-      <div class="mt-16">
+      <div class="mt-5">
         <p class="grey--text">ABOUT ME</p>
         <h2>WHO AM I?</h2>
         <p class="mt-16">

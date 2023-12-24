@@ -1,8 +1,10 @@
 <template>
-  <div class="ml-md-5 pb-7">
+  <div class="ml-md-5 pb-7 pr-4">
     <v-container>
-      <!-- Intro -->
-      <Intro />
+      <section id="section1">
+        <!-- Intro -->
+        <Intro />
+      </section>
 
       <!-- ProfessionalSummary -->
       <ProfessionalSummary />
@@ -10,8 +12,10 @@
       <!-- WhatIDo -->
       <WhatIDo />
 
-      <!-- Education -->
-      <Education />
+      <v-container id="section2">
+        <!-- Education -->
+        <Education /> </v-container
+      >section>
 
       <!-- Experience -->
       <Experience />

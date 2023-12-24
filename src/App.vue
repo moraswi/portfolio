@@ -25,7 +25,8 @@
               ></v-img>
             </v-avatar>
 
-            <v-list-item link to="/">
+            <v-list-item href="#home">
+              <!-- Home -->
               <v-list-item-icon>
                 <v-icon>mdi-home</v-icon>
               </v-list-item-icon>
@@ -33,13 +34,64 @@
                 <v-list-item-title>Home</v-list-item-title>
               </v-list-item-content>
             </v-list-item>
-            <v-list-item link to="/about">
+
+            <!-- About -->
+            <v-list-item href="#about">
               <v-list-item-icon>
                 <v-icon>mdi-information</v-icon>
               </v-list-item-icon>
               <v-list-item-content>
                 <v-list-item-title>About</v-list-item-title>
               </v-list-item-content>
+            </v-list-item>
+
+            <!-- Services -->
+            <v-list-item href="#services">
+              <v-list-item-icon>
+                <v-icon>mdi-desktop-classic</v-icon>
+              </v-list-item-icon>
+              <v-list-item-content>
+                <v-list-item-title>Services</v-list-item-title>
+              </v-list-item-content>
+            </v-list-item>
+
+            <!-- Education -->
+            <v-list-item href="#education">
+              <v-list-item-icon>
+                <v-icon>mdi-school</v-icon>
+              </v-list-item-icon>
+              <v-list-item-content>
+                <v-list-item-title>Education</v-list-item-title>
+              </v-list-item-content>
+            </v-list-item>
+
+            <!-- Experiance -->
+            <v-list-item href="#experiance">
+              <v-list-item-icon>
+                <v-icon>mdi-briefcase-outline</v-icon>
+              </v-list-item-icon>
+              <v-list-item-content>
+                <v-list-item-title>Experiance</v-list-item-title>
+              </v-list-item-content>
+            </v-list-item>
+
+            <!-- Contacts -->
+            <v-list-item href="#contacts">
+              <v-list-item-icon>
+                <v-icon>mdi-contacts-outline</v-icon>
+              </v-list-item-icon>
+              <v-list-item-content>
+                <v-list-item-title>Contacts</v-list-item-title>
+              </v-list-item-content>
+            </v-list-item>
+
+            <!-- icons -->
+            <v-list-item>
+              <v-layout>
+                <v-icon>mdi-linkedin</v-icon>
+
+                <v-icon class="ml-3">mdi-github</v-icon>
+              </v-layout>
             </v-list-item>
           </v-list>
         </v-navigation-drawer>
