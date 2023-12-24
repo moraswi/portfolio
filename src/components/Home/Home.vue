@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="ml-md-5 pb-7">
     <v-container>
       <!-- Intro -->
       <Intro />
@@ -21,7 +21,7 @@
     </v-container>
 
     <!-- BottomBar -->
-    <BottomBar />
+    <!-- <BottomBar /> -->
   </div>
 </template>
 
@@ -32,7 +32,7 @@ import WhatIDo from "@/components/Home/HomeComponents/WhatIDo.vue";
 import Education from "@/components/Home/HomeComponents/Education.vue";
 import Experience from "@/components/Home/HomeComponents/Experience.vue";
 import Projects from "@/components/Home/HomeComponents/Projects.vue";
-import BottomBar from "@/shared/BottomBar.vue";
+// import BottomBar from "@/shared/BottomBar.vue";
 
 export default {
   name: "HomePage",
@@ -45,7 +45,7 @@ export default {
     Education,
     Experience,
     Projects,
-    BottomBar,
+    // BottomBar,
   },
 };
 </script>
