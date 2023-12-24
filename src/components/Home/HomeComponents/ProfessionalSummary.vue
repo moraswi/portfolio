@@ -10,7 +10,7 @@
     <v-layout align-center justify-center>
       <!-- <v-flex> -->
       <div class="mt-5">
-        <p class="grey--text">ABOUT ME</p>
+        <p class="grey--text text2">ABOUT ME</p>
         <h2>WHO AM I?</h2>
         <p class="mt-16">
           <span class="blue--text"
@@ -44,4 +44,8 @@ export default {
 
 <style lang="scss" scoped>
 //
+.text2 {
+  font-family: "Krub", sans-serif;
+  font-size: 15px;
+}
 </style>

@@ -7,9 +7,9 @@
       flat
       tile
     ></v-card>
-    <p class="grey--text">WHAT I DO?</p>
-    <h2>ABOVE ARE SOME OF</h2>
-    <h2>MY EXPERTISE</h2>
+    <p class="grey--text text2">WHAT I DO?</p>
+    <h2 class="text1">ABOVE ARE SOME OF</h2>
+    <h2 class="text1">MY EXPERTISE</h2>
 
     <v-row class="mt-16">
       <v-col cols="12" md="4">
@@ -74,5 +74,10 @@ export default {
 
 .app-card {
   border-bottom: 3px solid green;
+}
+
+.text2 {
+  font-family: "Krub", sans-serif;
+  font-size: 15px;
 }
 </style>

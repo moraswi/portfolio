@@ -1,6 +1,6 @@
 <template>
   <div class="mt-16">
-    <p class="grey--text">CONTACTS</p>
+    <p class="grey--text text2">CONTACTS</p>
     <h2>CONTACTS</h2>
 
     <!-- email -->
@@ -92,4 +92,8 @@ export default {
 
 <style lang="scss" scoped>
 //
+.text2 {
+  font-family: "Krub", sans-serif;
+  font-size: 15px;
+}
 </style>

@@ -8,7 +8,7 @@
       tile
     ></v-card>
 
-    <p class="grey--text">EXPERIENCE</p>
+    <p class="grey--text text2">EXPERIENCE</p>
     <h2>WORK EXPERIENCE</h2>
 
     <v-layout class="mt-16">
@@ -75,4 +75,8 @@ export default {
 
 <style lang="scss" scoped>
 //
+.text2 {
+  font-family: "Krub", sans-serif;
+  font-size: 15px;
+}
 </style>

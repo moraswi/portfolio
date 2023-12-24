@@ -7,7 +7,7 @@
       flat
       tile
     ></v-card>
-    <p class="grey--text">PROJECTS</p>
+    <p class="grey--text text2">PROJECTS</p>
     <h2>MY PROJECTS</h2>
 
     <v-row class="mt-16">
@@ -61,4 +61,8 @@ export default {
 
 <style lang="scss" scoped>
 //
+.text2 {
+  font-family: "Krub", sans-serif;
+  font-size: 15px;
+}
 </style>
