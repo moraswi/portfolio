@@ -14,9 +14,9 @@
         <h2>WHO AM I?</h2>
         <p class="mt-16">
           <span class="blue--text"
-            ><strong> Hi i'am Lekgothoane Moraswi.</strong></span
+            ><strong> Hi i'm Lekgothoane Moraswi,</strong></span
           >
-          i am a Front-End Developer & Test Analyst.
+          a Front-End Developer & Test Analyst.
         </p>
         <p>
           Thrives on creating solutions from the ground up and possesses a keen
