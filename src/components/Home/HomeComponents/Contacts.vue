@@ -33,7 +33,7 @@
       </v-card>
 
       <h3 class="ml-7">
-        <a href="tel:+123456789">+27 78 929 8447</a>
+        <a href="tel:+27 78 929 8447">+27 78 929 8447</a>
       </h3>
     </v-layout>
 
@@ -53,6 +53,14 @@
         <p class="ml-7">Gauteng, South Africa</p>
       </div>
     </v-layout>
+
+    <v-layout class="mt-10" justify-space-between>
+      <v-icon @click="redirectToLinkedIn" size="35">mdi-linkedin</v-icon>
+
+      <v-icon @click="redirectToGitHub" size="35">mdi-github</v-icon>
+
+      <v-icon @click="redirectToEmail" size="35">mdi-email</v-icon>
+    </v-layout>
   </div>
 </template>
 
@@ -60,7 +68,25 @@
 export default {
   name: "ContactsSection",
 
-  data: () => ({}),
+  data: () => ({
+    // redirectToLinkedIn
+    redirectToLinkedIn() {
+      window.open(
+        "https://www.linkedin.com/in/moraswi-lekgothoane-8b44961b7/",
+        "_blank"
+      );
+    },
+
+    // redirectToGitHub
+    redirectToGitHub() {
+      window.open("https://github.com/moraswi", "_blank");
+    },
+
+    // redirectToEmail
+    redirectToEmail() {
+      window.open("mailto:moraswip97@gmail.com.com", "_blank");
+    },
+  }),
 };
 </script>
 
