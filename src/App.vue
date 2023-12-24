@@ -20,8 +20,8 @@
           <v-list>
             <v-avatar class="ma-4" size="100">
               <v-img
-                src="https://cdn.vuetifyjs.com/images/john.jpg"
-                alt="John"
+                src="@/assets/img/profile-picture.jpeg"
+                alt="profile-picture"
                 style="cursor: pointer"
                 @click="showDialog = true"
               ></v-img>
@@ -29,8 +29,8 @@
 
             <v-dialog v-model="showDialog" max-width="600">
               <v-img
-                src="https://cdn.vuetifyjs.com/images/john.jpg"
-                alt="John"
+                src="@/assets/img/profile-picture.jpeg"
+                alt="profile-picture"
               ></v-img>
             </v-dialog>
 
