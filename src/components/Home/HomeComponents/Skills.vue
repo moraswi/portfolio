@@ -1,13 +1,13 @@
 <template>
   <div class="mt-5">
     <!-- margin card -->
-    <!-- <v-card
+    <v-card
       class="transparent hidden-sm-and-down"
-      height="70"
+      height="120"
       flat
       tile
-    ></v-card> -->
-    <p class="grey--text text2 mt-16">SKILLS</p>
+    ></v-card>
+    <p class="grey--text text2">SKILLS</p>
     <h2>SOME OF MY SKILLS</h2>
 
     <v-row class="mt-3">

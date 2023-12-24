@@ -84,6 +84,16 @@
               </v-list-item-content>
             </v-list-item>
 
+            <!-- Skills -->
+            <v-list-item href="#skills">
+              <v-list-item-icon>
+                <v-icon>mdi-Cog</v-icon>
+              </v-list-item-icon>
+              <v-list-item-content>
+                <v-list-item-title>Skills</v-list-item-title>
+              </v-list-item-content>
+            </v-list-item>
+
             <!-- Experiance -->
             <v-list-item href="#projects">
               <v-list-item-icon>
