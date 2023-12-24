@@ -36,7 +36,7 @@
       <v-col cols="12" md="3">
         <ul>
           <li>Angular</li>
-          <li>C#(begginner)</li>
+          <li>C#(beginner)</li>
           <li>Selenium</li>
           <li>UI/UX Design</li>
           <li>Figma</li>
