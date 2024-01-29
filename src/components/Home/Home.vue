@@ -16,7 +16,7 @@
         <WhatIDo />
       </section>
 
-      <!-- Education -->
+      <!-- Educationn -->
       <section id="education">
         <Education />
       </section>
