@@ -5,8 +5,9 @@
 //   ]
 // })
 module.exports = {
-  // publicPath: process.env.NODE_ENV === "production" ? "/portfolio/" : "/",
-  publicPath: process.env.NODE_ENV === 'production' ? '/vue/dist/' : '/',
+  publicPath: process.env.NODE_ENV === "production" ? "/badmintoon-netlify/" : "/",
+
+  // publicPath: process.env.NODE_ENV === 'production' ? '/vue/dist/' : '/',
   lintOnSave: true,
 
   transpileDependencies: ["vuetify"],
