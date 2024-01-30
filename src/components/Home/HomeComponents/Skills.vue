@@ -19,6 +19,7 @@
           <li>React Native</li>
           <li>Vuetify</li>
           <li>SQL</li>
+          <li>Python</li>
         </ul>
       </v-col>
 
@@ -26,10 +27,11 @@
         <ul>
           <li>MySQL Workbench</li>
           <li>Postman</li>
-          <li>HTML/CSS</li>
+          <li>HTML</li>
           <li>Javascript</li>
           <li>Bootstrap</li>
-          <li>Version Control/Git</li>
+          <li>Git</li>
+          <li>HTML 5</li>
         </ul>
       </v-col>
 
@@ -41,13 +43,18 @@
           <li>UI/UX Design</li>
           <li>Figma</li>
           <li>REST APIs</li>
+          <li>CSS</li>
         </ul>
       </v-col>
       <v-col cols="12" md="3">
         <ul>
           <li>Docker</li>
-          <li>SCSS</li>
+          <li>SASS</li>
+          <li>CSS3</li>
+          <li>Tailwind CSS</li>
           <li>Typescript</li>
+          <li>Nuxt.js</li>
+          <li>Vuetify</li>
         </ul>
       </v-col>
     </v-row>
