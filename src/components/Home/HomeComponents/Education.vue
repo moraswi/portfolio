@@ -3,15 +3,15 @@
     <!-- margin card -->
     <v-card
       class="transparent hidden-sm-and-down"
-      height="150"
+      height="50"
       flat
       tile
     ></v-card>
 
-    <p class="grey--text text2">EDUCATION</p>
+    <p class="grey--text text2 mt-14">EDUCATION</p>
     <h2 class="mt-n3">QUALIFICATIONS AND DEGREES</h2>
 
-    <v-row class="mt-16">
+    <v-row class="mt-5">
       <v-col cols="12" md="6">
         <v-card>
           <div class="px-5 py-3 orange">
