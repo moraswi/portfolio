@@ -7,9 +7,22 @@
       flat
       tile
     ></v-card>
-    <p class="grey--text text2">WHAT I DO?</p>
-    <h2 class="text1 mt-n3">ABOVE ARE SOME OF MY EXPERTISE</h2>
 
+      <!-- title desktop view -->
+      <div class="hidden-sm-and-down">
+        <p class="grey--text text2">WHAT I DO?</p>
+    <h2 class="text1 mt-n3">EXPERTISE AND SERVICES</h2>
+
+      </div>
+
+       <!-- title mobile view -->
+      <v-row class="hidden-md-and-up">
+      <v-col class="text-center" xs12>
+        <p class="grey--text text2">WHAT I DO?</p>
+    <h2 class="text1 mt-n3">EXPERTISE AND SERVICES</h2>
+
+      </v-col>
+    </v-row>
 
     <v-row class="mt-5">
       <v-col cols="12" md="4">

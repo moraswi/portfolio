@@ -3,14 +3,26 @@
     <!-- margin card -->
     <v-card
       class="transparent hidden-sm-and-down"
-      height="120"
+      height="60"
       flat
       tile
     ></v-card>
-    <p class="grey--text text2">PROJECTS</p>
-    <h2>MY PROJECTS</h2>
 
-    <v-row class="mt-16">
+                  <!-- title desktop view -->
+                  <div class="hidden-sm-and-down">
+              <p class="grey--text text2">PROJECTS</p>
+              <h2 class="mt-n3">SUCCESSFUL INITIATIVES</h2>
+          </div>
+
+       <!-- title mobile view -->
+        <v-row class="hidden-md-and-up">
+          <v-col class="text-center" xs12>
+            <p class="grey--text text2 mt-5">PROJECTS</p>
+            <h2 class="mt-n3">SUCCESSFUL INITIATIVES</h2>
+          </v-col>
+        </v-row>
+
+    <v-row class="mt-5">
       <v-col cols="12" md="4">
         <v-card class="pa-4 web-card text-center">
           <img

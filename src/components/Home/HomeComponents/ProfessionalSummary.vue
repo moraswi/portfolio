@@ -3,16 +3,29 @@
     <!-- margin card -->
     <v-card
       class="transparent hidden-sm-and-down"
-      height="200"
+      height="80"
       flat
       tile
     ></v-card>
     <v-layout align-center justify-center>
-      <!-- <v-flex> -->
-      <div class="mt-5">
+    
+      <div class="mt-md-5">
+        
+        <!-- title desktop view -->
+        <div class="hidden-sm-and-down">
         <p class="grey--text text2">ABOUT ME</p>
         <h2 class="mt-n3">WHO AM I?</h2>
-        <p class=" mt-5">
+      </div>
+
+       <!-- title mobile view -->
+      <v-row class="hidden-md-and-up">
+      <v-col class="text-center" xs12>
+        <p class="grey--text text2 mt-12">ABOUT ME</p>
+        <h2 class="mt-n3">WHO AM I?</h2>
+      </v-col>
+    </v-row>
+
+        <p class="mt-5">
           <span class="blue--text"
             ><strong> Hi i'm Lekgothoane Moraswi,</strong></span
           >

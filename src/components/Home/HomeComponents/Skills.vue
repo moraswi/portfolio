@@ -3,12 +3,25 @@
     <!-- margin card -->
     <v-card
       class="transparent hidden-sm-and-down"
-      height="120"
+      height="60"
       flat
       tile
     ></v-card>
-    <p class="grey--text text2">SKILLS</p>
-    <h2>SOME OF MY SKILLS</h2>
+
+
+              <!-- title desktop view -->
+          <div class="hidden-sm-and-down">
+              <p class="grey--text text2">SKILLS</p>
+              <h2 class="mt-n3">TECHNICAL MASTERY</h2>
+          </div>
+
+       <!-- title mobile view -->
+        <v-row class="hidden-md-and-up">
+          <v-col class="text-center" xs12>
+            <p class="grey--text text2 mt-5">SKILLS</p>
+            <h2 class="mt-n3">TECHNICAL MASTERY</h2>
+          </v-col>
+        </v-row>
 
     <v-row class="mt-3">
       <v-col cols="12" md="3">

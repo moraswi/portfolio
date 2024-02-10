@@ -3,15 +3,25 @@
     <!-- margin card -->
     <v-card
       class="transparent hidden-sm-and-down"
-      height="120"
+      height="40"
       flat
       tile
     ></v-card>
+          <!-- title desktop view -->
+          <div class="hidden-sm-and-down">
+            <p class="grey--text text2 mt-12">EXPERIENCE</p>
+            <h2 class="mt-n3">CAREER HIGHLIGHTS</h2>
+          </div>
 
-    <p class="grey--text text2">EXPERIENCE WORK EXPERIENCE</p>
-    <h2>WORK EXPERIENCE</h2>
+       <!-- title mobile view -->
+        <v-row class="hidden-md-and-up">
+          <v-col class="text-center" xs12>
+            <p class="grey--text text2 mt-5">EXPERIENCE</p>
+            <h2 class="mt-n3">CAREER HIGHLIGHTS</h2>
+          </v-col>
+        </v-row>
 
-    <v-layout class="mt-16">
+    <v-layout class="mt-10">
       <!-- icon -->
       <v-avatar color="#F2F2F2" size="53">
         <v-avatar color="orange" size="45">
