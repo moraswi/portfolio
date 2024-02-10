@@ -1,11 +1,16 @@
 <template>
-  <div class="ml-md-5 pb-7 pr-4">
-    <v-container>
+  <div class=" pb-7 ">
+   
       <!-- Intro -->
-      <section id="home">
+      <section class="hidden-md-and-up" id="home">
         <Intro />
       </section>
 
+      <v-container>
+
+        <section class="hidden-sm-and-down" id="home">
+        <Intro />
+      </section>
       <!-- ProfessionalSummary -->
       <section id="about">
         <ProfessionalSummary />

@@ -27,11 +27,12 @@
               ></v-img>
             </v-avatar>
 
-            <v-dialog v-model="showDialog" max-width="600">
+            <v-dialog style="border-radius: 50%;" v-model="showDialog" max-width="600">
+              <v-card>
               <v-img
                 src="@/assets/img/profile-picture.jpeg"
                 alt="profile-picture"
-              ></v-img>
+              ></v-img></v-card>
             </v-dialog>
 
             <v-list-item href="#home">
@@ -185,3 +186,12 @@ export default {
   },
 };
 </script>
+
+<style lang="scss" scoped>
+//
+.circular-dialog {
+  border-radius: 50;
+  overflow: hidden;
+}
+</style>
+

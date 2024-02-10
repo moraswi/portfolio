@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-2">
+  <div class="mt-md-2 div-deco">
     <img
       class="hidden-sm-and-down"
       src="@/assets/img/TopImage.jpg"
@@ -25,8 +25,8 @@
       <div class="text1">
         <h1>Hi!</h1>
         <h1>I'm Moraswi,</h1>
-        <h1>a Front-End Developer &</h1>
-        <h1>Test Analyst</h1>
+        <h1>a Front-End Developer & Test Analyst</h1>
+       
       </div>
     </v-layout>
   </div>
@@ -43,6 +43,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+
+.div-deco{
+  height: 600px;
+  // background: linear-gradient(to right, #ff8a00, #da1b60); 
+  /* Additional styling options */
+  // color: white;
+}
 //
 .text1 {
   font-family: "Krub", sans-serif;
@@ -52,5 +60,15 @@ export default {
   .text1 {
     font-size: 13px;
   }
+}
+
+@media screen and (max-width: 768px) {
+  .div-deco{
+    padding-top: 5px;
+  height: 160px;
+  background: linear-gradient(to right, #ff8a00, #da1b60); /* Replace these colors with your desired gradient */
+  /* Additional styling options */
+  color: white;
+}
 }
 </style>

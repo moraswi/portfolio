@@ -10,7 +10,7 @@
     <v-layout align-center justify-center>
     
       <div class="mt-md-5">
-        
+
         <!-- title desktop view -->
         <div class="hidden-sm-and-down">
         <p class="grey--text text2">ABOUT ME</p>
@@ -20,7 +20,7 @@
        <!-- title mobile view -->
       <v-row class="hidden-md-and-up">
       <v-col class="text-center" xs12>
-        <p class="grey--text text2 mt-12">ABOUT ME</p>
+        <p class="grey--text text2 mt-5">ABOUT ME</p>
         <h2 class="mt-n3">WHO AM I?</h2>
       </v-col>
     </v-row>
