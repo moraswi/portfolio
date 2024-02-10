@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-8">
+  <div class="mt-md-16 mt-5">
 
         <!-- title desktop view -->
           <div class="hidden-sm-and-down">

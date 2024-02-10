@@ -3,7 +3,7 @@
     <!-- margin card -->
     <v-card
       class="transparent hidden-sm-and-down"
-      height="50"
+      height="30"
       flat
       tile
     ></v-card>
