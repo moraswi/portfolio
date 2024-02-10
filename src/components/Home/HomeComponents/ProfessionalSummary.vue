@@ -11,8 +11,8 @@
       <!-- <v-flex> -->
       <div class="mt-5">
         <p class="grey--text text2">ABOUT ME</p>
-        <h2>WHO AM I?</h2>
-        <p class="mt-16">
+        <h2 class="mt-n3">WHO AM I?</h2>
+        <p class=" mt-5">
           <span class="blue--text"
             ><strong> Hi i'm Lekgothoane Moraswi,</strong></span
           >

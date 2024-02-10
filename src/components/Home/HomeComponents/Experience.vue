@@ -8,7 +8,7 @@
       tile
     ></v-card>
 
-    <p class="grey--text text2">EXPERIENCE</p>
+    <p class="grey--text text2">EXPERIENCE WORK EXPERIENCE</p>
     <h2>WORK EXPERIENCE</h2>
 
     <v-layout class="mt-16">

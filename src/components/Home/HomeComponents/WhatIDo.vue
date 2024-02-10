@@ -3,20 +3,20 @@
     <!-- margin card -->
     <v-card
       class="transparent hidden-sm-and-down"
-      height="150"
+      height="60"
       flat
       tile
     ></v-card>
     <p class="grey--text text2">WHAT I DO?</p>
-    <h2 class="text1">ABOVE ARE SOME OF</h2>
-    <h2 class="text1">MY EXPERTISE</h2>
+    <h2 class="text1 mt-n3">ABOVE ARE SOME OF MY EXPERTISE</h2>
 
-    <v-row class="mt-16">
+
+    <v-row class="mt-5">
       <v-col cols="12" md="4">
         <v-card class="pa-4 web-card text-center">
           <h3>WEB</h3>
 
-          <p class="mt-7">
+          <p class="mt-5">
             Proficient in web development, with a focus on creating responsive
             and visually appealing user interfaces using HTML, ReactJS, VueJS,
             CSS, JavaScript act.
@@ -28,7 +28,7 @@
         <v-card class="pa-4 test-analyst-card text-center">
           <h3>TEST ANALYST</h3>
 
-          <p class="mt-7">
+          <p class="mt-5">
             Accomplished Test Analyst with a proven track record of ensuring
             software quality through comprehensive testing strategies,
             meticulous test planning, and precise execution, contributing to the
@@ -41,7 +41,7 @@
         <v-card class="pa-4 app-card text-center">
           <h3>MOBILE APPLICATION</h3>
 
-          <p class="mt-7">
+          <p class="mt-5">
             Proficient in mobile app development, adept at designing and
             implementing robust and user-friendly applications for both Android
             and iOS platforms using technologies such as React Native and

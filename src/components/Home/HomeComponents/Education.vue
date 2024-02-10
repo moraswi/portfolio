@@ -9,7 +9,7 @@
     ></v-card>
 
     <p class="grey--text text2">EDUCATION</p>
-    <h2>education</h2>
+    <h2 class="mt-n3">QUALIFICATIONS AND DEGREES</h2>
 
     <v-row class="mt-16">
       <v-col cols="12" md="6">
