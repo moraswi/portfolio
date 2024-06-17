@@ -1,21 +1,21 @@
 <template>
   <div>
-    <Home />
+    <GroupLeadInfo />
   </div>
 </template>
 
 <script>
-import Home from "@/components/Home/Home.vue";
+import GroupLeadInfo from "@/components/MoreInfo/GroupLeadInfo.vue";
 
 export default {
-  name: "DocumentManagementUsers",
+  name: "GroupLeadInfo",
 
   data() {
     return {};
   },
 
   components: {
-    Home,
+    GroupLeadInfo,
   },
 };
 </script>

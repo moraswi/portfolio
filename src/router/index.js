@@ -9,6 +9,24 @@ const routes = [
     name: "home",
     component: () => import("@/views/HomeView.vue"),
   },
+
+  {
+    path: "/about-me-read-more",
+    name: "AboutMe",
+    component: () => import("@/views/AboutMe.vue"),
+  },
+
+  {
+    path: "/full-stack-developer-read-more",
+    name: "FullStackDeveloperInfo",
+    component: () => import("@/views/FullStackDeveloperInfo.vue"),
+  },
+
+  {
+    path: "/group-lead-read-more",
+    name: "GroupLeadInfo",
+    component: () => import("@/views/GroupLeadInfo.vue"),
+  },
 ];
 
 const router = new VueRouter({

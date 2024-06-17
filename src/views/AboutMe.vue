@@ -1,11 +1,11 @@
 <template>
   <div>
-    <Home />
+    <AboutMe />
   </div>
 </template>
 
 <script>
-import Home from "@/components/Home/Home.vue";
+import AboutMe from "@/components/MoreInfo/AboutMe.vue";
 
 export default {
   name: "DocumentManagementUsers",
@@ -15,7 +15,7 @@ export default {
   },
 
   components: {
-    Home,
+    AboutMe,
   },
 };
 </script>

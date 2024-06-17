@@ -1,11 +1,11 @@
 <template>
   <div>
-    <Home />
+    <FullStackDeveloperInfo />
   </div>
 </template>
 
 <script>
-import Home from "@/components/Home/Home.vue";
+import FullStackDeveloperInfo from "@/components/MoreInfo/FullStackDeveloperInfo.vue";
 
 export default {
   name: "DocumentManagementUsers",
@@ -15,7 +15,7 @@ export default {
   },
 
   components: {
-    Home,
+    FullStackDeveloperInfo,
   },
 };
 </script>
