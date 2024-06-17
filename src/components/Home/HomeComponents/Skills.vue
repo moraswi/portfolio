@@ -8,20 +8,19 @@
       tile
     ></v-card>
 
+    <!-- title desktop view -->
+    <div class="hidden-sm-and-down">
+      <p class="grey--text text2">SKILLS</p>
+      <h2 class="mt-n3">TECHNICAL MASTERY</h2>
+    </div>
 
-              <!-- title desktop view -->
-          <div class="hidden-sm-and-down">
-              <p class="grey--text text2">SKILLS</p>
-              <h2 class="mt-n3">TECHNICAL MASTERY</h2>
-          </div>
-
-       <!-- title mobile view -->
-        <v-row class="hidden-md-and-up">
-          <v-col class="text-center" xs12>
-            <p class="grey--text text2 mt-5">SKILLS</p>
-            <h2 class="mt-n3">TECHNICAL MASTERY</h2>
-          </v-col>
-        </v-row>
+    <!-- title mobile view -->
+    <v-row class="hidden-md-and-up">
+      <v-col class="text-center" xs12>
+        <p class="grey--text text2 mt-5">SKILLS</p>
+        <h2 class="mt-n3">TECHNICAL MASTERY</h2>
+      </v-col>
+    </v-row>
 
     <v-row class="mt-3">
       <v-col cols="12" md="3">
@@ -33,6 +32,7 @@
           <li>Vuetify</li>
           <li>SQL</li>
           <li>Python</li>
+          <li>Node.js</li>
         </ul>
       </v-col>
 
@@ -45,13 +45,14 @@
           <li>Bootstrap</li>
           <li>Git</li>
           <li>HTML 5</li>
+          <li>ExpressJs</li>
         </ul>
       </v-col>
 
       <v-col cols="12" md="3">
         <ul>
           <li>Angular</li>
-          <li>C#(beginner)</li>
+          <li>C#</li>
           <li>Selenium</li>
           <li>UI/UX Design</li>
           <li>Figma</li>

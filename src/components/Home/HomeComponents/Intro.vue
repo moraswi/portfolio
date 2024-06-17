@@ -25,8 +25,7 @@
       <div class="text1">
         <h1>Hi!</h1>
         <h1>I'm Moraswi,</h1>
-        <h1>a Front-End Developer & Test Analyst</h1>
-       
+        <h1>A Full Stack Developer</h1>
       </div>
     </v-layout>
   </div>
@@ -43,11 +42,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
-
-.div-deco{
+.div-deco {
   height: 600px;
-  // background: linear-gradient(to right, #ff8a00, #da1b60); 
+  // background: linear-gradient(to right, #ff8a00, #da1b60);
   /* Additional styling options */
   // color: white;
 }
@@ -63,12 +60,16 @@ export default {
 }
 
 @media screen and (max-width: 768px) {
-  .div-deco{
+  .div-deco {
     padding-top: 5px;
-  height: 160px;
-  background: linear-gradient(to right, #ff8a00, #da1b60); /* Replace these colors with your desired gradient */
-  /* Additional styling options */
-  color: white;
-}
+    height: 160px;
+    background: linear-gradient(
+      to right,
+      #ff8a00,
+      #da1b60
+    ); /* Replace these colors with your desired gradient */
+    /* Additional styling options */
+    color: white;
+  }
 }
 </style>

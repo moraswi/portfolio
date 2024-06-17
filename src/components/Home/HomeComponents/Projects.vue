@@ -8,21 +8,22 @@
       tile
     ></v-card>
 
-                  <!-- title desktop view -->
-                  <div class="hidden-sm-and-down">
-              <p class="grey--text text2">PROJECTS</p>
-              <h2 class="mt-n3">SUCCESSFUL INITIATIVES</h2>
-          </div>
+    <!-- title desktop view -->
+    <div class="hidden-sm-and-down">
+      <p class="grey--text text2">PROJECTS</p>
+      <h2 class="mt-n3">SUCCESSFUL INITIATIVES</h2>
+    </div>
 
-       <!-- title mobile view -->
-        <v-row class="hidden-md-and-up">
-          <v-col class="text-center" xs12>
-            <p class="grey--text text2 mt-5">PROJECTS</p>
-            <h2 class="mt-n3">SUCCESSFUL INITIATIVES</h2>
-          </v-col>
-        </v-row>
+    <!-- title mobile view -->
+    <v-row class="hidden-md-and-up">
+      <v-col class="text-center" xs12>
+        <p class="grey--text text2 mt-5">PROJECTS</p>
+        <h2 class="mt-n3">SUCCESSFUL INITIATIVES</h2>
+      </v-col>
+    </v-row>
 
     <v-row class="mt-5">
+      <!-- Grade 11 Q&A -->
       <v-col cols="12" md="4">
         <v-card class="pa-4 web-card text-center">
           <img
@@ -50,6 +51,40 @@
           >
             Download
           </v-btn>
+        </v-card>
+      </v-col>
+
+      <!-- Grade 11 Q&A -->
+      <v-col cols="12" md="4">
+        <v-card class="pa-4 web-card text-center">
+          <!-- <img
+            class=""
+            src="@/assets/img/Grade11Logo.png"
+            alt="Pencil-Image"
+            width="70"
+            height="70"
+          /> -->
+          <h3>Gospel Gateway</h3>
+          <p class="grey--text">Web Application</p>
+
+          <p class="mt-7">
+            The web will assist churches in maintaining their records
+            efficiently, avoiding the need for manual data entry. Additionally,
+            it will facilitate the display of yearly plans, weekly
+            announcements, and other crucial updates.
+          </p>
+
+          <p>In progress: the demo on request</p>
+          <!-- <v-btn
+            class="text-none px-16"
+            color="blue-darken-4"
+            variant="outlined"
+            v-bind="props"
+            outlined
+            v-on:click="redirectToGoogle"
+          >
+            Download
+          </v-btn> -->
         </v-card>
       </v-col>
     </v-row>

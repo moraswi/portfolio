@@ -1,14 +1,12 @@
 <template>
-  <div class=" pb-7 ">
-   
-      <!-- Intro -->
-      <section class="hidden-md-and-up" id="home">
-        <Intro />
-      </section>
+  <div class="pb-7">
+    <!-- Intro -->
+    <section class="hidden-md-and-up" id="home">
+      <Intro />
+    </section>
 
-      <v-container>
-
-        <section class="hidden-sm-and-down" id="home">
+    <v-container>
+      <section class="hidden-sm-and-down" id="home">
         <Intro />
       </section>
       <!-- ProfessionalSummary -->

@@ -8,19 +8,17 @@
       tile
     ></v-card>
 
-      <!-- title desktop view -->
-      <div class="hidden-sm-and-down">
-        <p class="grey--text text2">WHAT I DO?</p>
-    <h2 class="text1 mt-n3">EXPERTISE AND SERVICES</h2>
+    <!-- title desktop view -->
+    <div class="hidden-sm-and-down">
+      <p class="grey--text text2">WHAT I DO?</p>
+      <h2 class="text1 mt-n3">EXPERTISE AND SERVICES</h2>
+    </div>
 
-      </div>
-
-       <!-- title mobile view -->
-      <v-row class="hidden-md-and-up">
+    <!-- title mobile view -->
+    <v-row class="hidden-md-and-up">
       <v-col class="text-center" xs12>
         <p class="grey--text text2">WHAT I DO?</p>
-    <h2 class="text1 mt-n3">EXPERTISE AND SERVICES</h2>
-
+        <h2 class="text1 mt-n3">EXPERTISE AND SERVICES</h2>
       </v-col>
     </v-row>
 
@@ -39,13 +37,13 @@
 
       <v-col cols="12" md="4">
         <v-card class="pa-4 test-analyst-card text-center">
-          <h3>TEST ANALYST</h3>
+          <h3>BACKEND</h3>
 
           <p class="mt-5">
-            Accomplished Test Analyst with a proven track record of ensuring
-            software quality through comprehensive testing strategies,
-            meticulous test planning, and precise execution, contributing to the
-            delivery of reliable and high-quality software solutions.
+            Experienced Backend Developer with a proven history of creating
+            reliable and efficient endpoints. Skilled in defining routes,
+            implementing server logic, and ensuring secure data communication,
+            contributing to high-performance and robust applications.
           </p>
         </v-card>
       </v-col>

@@ -8,28 +8,26 @@
       tile
     ></v-card>
     <v-layout align-center justify-center>
-    
       <div class="mt-md-5">
-
         <!-- title desktop view -->
         <div class="hidden-sm-and-down">
-        <p class="grey--text text2">ABOUT ME</p>
-        <h2 class="mt-n3">WHO AM I?</h2>
-      </div>
+          <p class="grey--text text2">ABOUT ME</p>
+          <h2 class="mt-n3">WHO AM I?</h2>
+        </div>
 
-       <!-- title mobile view -->
-      <v-row class="hidden-md-and-up">
-      <v-col class="text-center" xs12>
-        <p class="grey--text text2 mt-5">ABOUT ME</p>
-        <h2 class="mt-n3">WHO AM I?</h2>
-      </v-col>
-    </v-row>
+        <!-- title mobile view -->
+        <v-row class="hidden-md-and-up">
+          <v-col class="text-center" xs12>
+            <p class="grey--text text2 mt-5">ABOUT ME</p>
+            <h2 class="mt-n3">WHO AM I?</h2>
+          </v-col>
+        </v-row>
 
         <p class="mt-5">
           <span class="blue--text"
             ><strong> Hi i'm Lekgothoane Moraswi,</strong></span
           >
-          a Front-End Developer & Test Analyst.
+          a Full Stack Developer.
         </p>
         <p>
           Thrives on creating solutions from the ground up and possesses a keen

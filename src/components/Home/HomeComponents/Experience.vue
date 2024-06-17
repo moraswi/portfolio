@@ -7,19 +7,19 @@
       flat
       tile
     ></v-card>
-          <!-- title desktop view -->
-          <div class="hidden-sm-and-down">
-            <p class="grey--text text2 mt-12">EXPERIENCE</p>
-            <h2 class="mt-n3">CAREER HIGHLIGHTS</h2>
-          </div>
+    <!-- title desktop view -->
+    <div class="hidden-sm-and-down">
+      <p class="grey--text text2 mt-12">EXPERIENCE</p>
+      <h2 class="mt-n3">CAREER HIGHLIGHTS</h2>
+    </div>
 
-       <!-- title mobile view -->
-        <v-row class="hidden-md-and-up">
-          <v-col class="text-center" xs12>
-            <p class="grey--text text2 mt-5">EXPERIENCE</p>
-            <h2 class="mt-n3">CAREER HIGHLIGHTS</h2>
-          </v-col>
-        </v-row>
+    <!-- title mobile view -->
+    <v-row class="hidden-md-and-up">
+      <v-col class="text-center" xs12>
+        <p class="grey--text text2 mt-5">EXPERIENCE</p>
+        <h2 class="mt-n3">CAREER HIGHLIGHTS</h2>
+      </v-col>
+    </v-row>
 
     <v-layout class="mt-10">
       <!-- icon -->
@@ -30,18 +30,19 @@
       </v-avatar>
 
       <v-card class="ml-md-5 ml-1 pa-5" color="#F2F2F2" width="100%" flat>
-        <!-- Front-End Developer (Full Time) -->
-        <h3>Front-End Developer (Full Time)</h3>
+        <!-- Group Leader (Full Time) -->
+        <h3>Group Leader (Full Time)</h3>
 
         <!-- Softidoc -->
-        <p>Softidoc <span class="grey--text">2022 Feb</span></p>
+        <p>Softidoc <span class="grey--text">2024 April - current</span></p>
 
         <!-- explanation -->
-        <p class="mt-10">
-          I contribute to the development of both web and mobile applications.
-          My responsibilities include crafting visually appealing user
-          interfaces, implementing responsive designs, and ensuring seamless
-          user experiences across various platforms.
+        <p class="mt-5">
+          Group Leader managing web and mobile app projects. I lead the team in
+          creating easy-to-use interfaces and responsive designs. I also ensure
+          strong backend endpoints and smooth user experiences on all platforms,
+          while actively maintaining client relationships to foster ongoing
+          collaboration
         </p>
       </v-card>
     </v-layout>
@@ -56,19 +57,17 @@
 
       <v-card class="ml-md-5 ml-1 pa-5" color="#F2F2F2" width="100%" flat>
         <!-- Front-End Developer (Full Time) -->
-        <h3>Test Analyst (Part Time)</h3>
+        <h3>Full Stack Developer (Full Time)</h3>
 
         <!-- Softidoc -->
-        <p>Softidoc <span class="grey--text">2022 Feb</span></p>
+        <p>Softidoc <span class="grey--text">2022 Feb - current</span></p>
 
         <!-- explanation -->
-        <p class="mt-10">
-          As a Test Analyst, my role involves implementing comprehensive testing
-          strategies to ensure the quality and reliability of our software
-          products. I meticulously plan and execute test cases, collaborate with
-          cross-functional teams to identify and resolve issues, and contribute
-          to the seamless deployment of robust applications through rigorous
-          testing processes.
+        <p class="mt-5">
+          Full Stack Developer contributing to web and mobile applications.
+          Responsibilities include crafting visually appealing user interfaces,
+          implementing responsive designs, developing robust endpoints, and
+          ensuring seamless user experiences across various platforms.
         </p>
       </v-card>
     </v-layout>
